@@ -40,7 +40,7 @@ int main()
     
     else if (userDegree == 'F' || userDegree == 'f') {    // Else if statement for Fahrenheit 
         
-        celTemp = (userTemp - (32 * 5/9));                  // Equation to convert Fahrenheit to Celsius.
+        celTemp = ((userTemp - 32) * 5/9);                  // Equation to convert Fahrenheit to Celsius.
         
             cout << "The temperature you entered is ";          // Tell user what they entered.
             cout << userTemp << " degrees Fahrenheit." << endl; // Tell user what they entered.
